@@ -95,14 +95,22 @@
         $ci=0;
 
         for ($i=$pagina; $i<=$nPaginas; $i++){
-            if ($ci<=$botones) {
+            if ($ci>=$botones) {
                 break;
             }
 
             if ($pagina==$i) {
-                $tabla.='<li><a class="pagination-link is-current" href="'.$url.$i'">'.$i.'</a></li>';
+                $tabla.='
+                        <li>
+                            <a class="pagination-link is-current" href="'.$url.$i.'">'.$i.'</a>
+                        </li>
+                    ';
             } else {
-                $tabla.='<li><a class="pagination-link" href="'.$url.$i'">'.$i.'</a></li>';
+                $tabla.='
+                        <li>
+                            <a class="pagination-link" href="'.$url.$i.'">'.$i.'</a>
+                        </li>
+                    ';
             }
             $ci++;
         }     
