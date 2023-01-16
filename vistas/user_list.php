@@ -23,7 +23,5 @@
         
 
         require_once "./php/usuario_lista.php";
-
-
     ?>
 </div>
