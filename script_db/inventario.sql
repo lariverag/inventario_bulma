@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 11-01-2023 a las 23:56:44
--- Versión del servidor: 10.4.22-MariaDB
--- Versión de PHP: 8.1.2
+-- Tiempo de generación: 16-01-2023 a las 02:50:04
+-- Versión del servidor: 10.4.25-MariaDB
+-- Versión de PHP: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -68,6 +68,18 @@ CREATE TABLE `usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
 
 --
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`usuario_id`, `usuario_nombre`, `usuario_apellido`, `usuario_usuario`, `usuario_clave`, `usuario_email`) VALUES
+(1, 'alfredo', 'rivera', 'alfred103', '123', 'alfredh103@hotmail.com'),
+(2, 'Luis', 'Rivera', 'luis103', '$2y$10$N7qPtYaYppQh7NNcSeb5eOVLzkjFT/ZlOvCMLsnXMQfMnt6rn0rwS', 'luis103@gmail.com'),
+(3, 'Camila', 'Rodriguez', 'camila22', '$2y$10$m7pfPS2qHBIfFzyp6E7bmuXvDfhfUgAfkiYNF2hHHkGjKaqg1CHMK', 'camila22@hotmail.com'),
+(4, 'Andrea', 'Colmenares', 'andrea', '$2y$10$ySoRj.3AHCAbz/fzZfw7zueKEu4TCpaOCYuKBe8KJ4iEciS5HFYgK', 'andrea@colmenares.com'),
+(5, 'Marcela', 'Zambrano', 'marce', '$2y$10$trIqQG92FPIpGdJ1tORPuuQlvpJld14kohe5iGP59dhUYREn1QXqK', 'marce@gmail.com'),
+(6, 'Jhon', 'Ramirez', 'jhon', '$2y$10$1/la2Jl4ZNB1qJxGJclU6Oba9Ci2lysaD87I.H.OK2zKUJrNV8bdi', 'jhon@gmail.com');
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -111,7 +123,7 @@ ALTER TABLE `producto`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `usuario_id` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `usuario_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Restricciones para tablas volcadas
