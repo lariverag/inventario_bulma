@@ -5,7 +5,7 @@
         return $pdo;
     }
     
-    # Prueba de insercion a la base de datos en la tabla categoria#
+    # Prueba de insercion a la base de datos en la tabla categoria de los campos nombre y ubicacion #
 
     /* $pdo = new PDO('mysql:host=localhost;dbname=inventario','root','');
     $pdo->query("INSERT INTO categoria(categoria_nombre, categoria_ubicacion) VALUES ('prueba', 'texto ubicacion')");*/
