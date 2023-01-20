@@ -1,0 +1,113 @@
+[33mcommit c5638a282fab25508e926f98426c5604c819e451[m[33m ([m[1;36mHEAD -> [m[1;32mdesarrollo[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 18 23:00:30 2023 -0500
+
+    Se creo este archivo pero se deja vacio para continuar con el video numero 32 y actualizar datos
+
+[33mcommit d2f4d2ed7a26ee4d9902c9066d945a2f63e92dbe[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 18 22:58:49 2023 -0500
+
+    Se creo el archivo para manejar la reutilizacion de codigo en al momento de generar errores o advertencias al usuario final
+
+[33mcommit d9bf15de4f9965e9bfd1a738c2a0e16396ab1587[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 18 22:56:44 2023 -0500
+
+    Se creo el archivo btn_back que tiene un script de JS para retroceder a la pagina anterior en la navegacion historica
+
+[33mcommit 113126e477236b8aa79c395a3cd37e9b3364608c[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 18 22:54:34 2023 -0500
+
+    Se creo todo el formulario para que fueran actualizado los campos de los usuarios, se incluyo el archivo error_alert para generar losmensajes de alertas
+
+[33mcommit a466b8373b135023c7e61a5ee758ef0421d5d620[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 18 22:52:18 2023 -0500
+
+    Se modifico en la linea 47 y 48 incluyendo el href en el boton para que lo direccione al usuario a midificar su propia informacion
+
+[33mcommit 09aa24df21fa0c5864ae8c2dfebb728a6f61eacd[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Tue Jan 17 22:31:28 2023 -0500
+
+    En user_search se llamo el codigo php de usuario_eliminar.php y se valido que la variable user_id_del viniera definida
+
+[33mcommit 26f1e9e41e16437440675cf3a6667cf281e8b11f[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Tue Jan 17 22:28:31 2023 -0500
+
+    En user_list se llamo el codigo php de usuario_eliminar.php y se valido que la variable user_id_del viniera definida
+
+[33mcommit fa8af7a88e9e186af03942fcb470c4608166e7fd[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Tue Jan 17 22:26:17 2023 -0500
+
+    Se incluyeron las lineas de las 47 a la 51 validando que la variable usare_id_del venga definida para llamar el archivo php usuario_eliminar, se creo el archivo usuario_eliminar
+
+[33mcommit 8366e46146fd7f3def22a19eb648e91823c40541[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Mon Jan 16 21:36:07 2023 -0500
+
+    Se creo el nuevo archivo de buscador de acuerdo al video 28
+
+[33mcommit bfc2142359ccac1df308221d1d8fe5c4cf33ffa6[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Mon Jan 16 16:31:02 2023 -0500
+
+    Se actualizaron las vistas de busqueda video 27
+
+[33mcommit c54d31553304c0737aadd87d0556fe791ea59a12[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Sun Jan 15 20:53:31 2023 -0500
+
+    Se modifico el script con los nuevos usuarios ahora con 5 usuarios
+
+[33mcommit 2592f98498e04ec5b00a236e5c9d90c4ea2a752d[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Sun Jan 15 20:45:52 2023 -0500
+
+    Se modificaron los archivo y el sistema esta funcional
+
+[33mcommit c7fc0f25942179a0aaf648490b9cbfa775a11f7b[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Fri Jan 13 17:03:52 2023 -0500
+
+    se mejora la vista de user_new
+
+[33mcommit ddcdbc57e70ff4d6704793b6bb95813b3282f1d5[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Fri Jan 13 13:30:09 2023 -0500
+
+    Se actualiza el navbar con la nvegacion entre pantallas
+
+[33mcommit fa2fbc15f815da69ee930d9988626feed0a084ec[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Fri Jan 13 13:24:16 2023 -0500
+
+    Se actualizan de acuerdo a video
+
+[33mcommit 2c0f7d1ee71774d414e90cb710d3461af41c9ff4[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Fri Jan 13 13:17:47 2023 -0500
+
+    se actauliza el proyecto con los ultimos cambios hasta el video 17
+
+[33mcommit dda4873f24a22888bafa636b2e518a7fdaf11cd2[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 11 23:31:10 2023 -0500
+
+    se creo el archivo main con la funcion de conexion a la db la fucnion de verificr datos y evitar inyecion de codigo a nuestro proyecto
+
+[33mcommit 1f3b40cdc5e12c90d8aa6a54caf470199856959c[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 11 17:59:44 2023 -0500
+
+    Se actualizaron todos los archivos con el login y las vistas de 404
+
+[33mcommit 4336d7460c29cd29ec39a011be6402cb7e2d460c[m
+Author: Alfredo Rivera <lariveragut@unadvirtual.edu.co>
+Date:   Wed Jan 11 15:49:42 2023 -0500
+
+    Primer commit cargando y creando el head y el navbar
