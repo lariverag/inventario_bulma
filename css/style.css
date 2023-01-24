@@ -20,6 +20,6 @@ body, html{
     min-width: 300px;
 }
 
-.fomr-inline{
+.form-inline{
     display: inline-flex;
 }

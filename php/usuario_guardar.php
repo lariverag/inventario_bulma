@@ -1,7 +1,9 @@
 <?php
+
+    #Invocamos el archivo main.php para hacer uso de las fucnionalidades que este contiene: PASO 1#
     require_once "main.php";
 
-    # Almacenando datos #
+    # Almacenando datos: PASO 2 #
 
     $nombre = limpiar_cadena($_POST['usuario_nombre']);
     $apellido = limpiar_cadena($_POST['usuario_apellido']);
@@ -12,7 +14,7 @@
     $clave_1 = limpiar_cadena($_POST['usuario_clave_1']);
     $clave_2 = limpiar_cadena($_POST['usuario_clave_2']);
 
-    # Verificando los campos obligatorios #
+    # Verificando los campos obligatorios: PASO 3 #
 
     if($nombre=="" || $apellido=="" || $usuario=="" || $clave_1=="" || $clave_2==""){
         echo '
@@ -25,7 +27,7 @@
 
     }
 
-    # Verificando integridad de los datos #
+    # Verificando integridad de los datos: PASO 4 #
 
     if (verificar_datos("[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{3,40}",$nombre)) {
         echo '
@@ -124,7 +126,7 @@
         $clave=password_hash($clave_1, PASSWORD_BCRYPT, ["cost"=>10]);
     }
 
-    # Guardando datos desde el formulario#
+    # Guardando datos desde el formulario: PASO 5#
 
     $guardar_usuario=conexion();
     $guardar_usuario=$guardar_usuario->prepare("INSERT INTO usuario(usuario_nombre, usuario_apellido, usuario_usuario, usuario_clave, usuario_email) 
@@ -139,6 +141,8 @@
     ];
 
     $guardar_usuario->execute($marcadores);
+
+    # Confirmanado los datos guardados: PASO 6 #
 
     if ($guardar_usuario->rowCount()==1) {
         echo '
