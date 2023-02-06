@@ -24,7 +24,6 @@
             </div>
         ';
         exit();
-
     }
 
     # Verificando integridad de los datos: PASO 4 #
@@ -105,7 +104,7 @@
                 echo '
                 <div class="notification is-danger is-light">
                     <strong>¡Ocurrio un error inesperado!</strong><br>
-                    El USUARIO ingresado ya se existe, por favor elija otro.
+                    El USUARIO ingresado ya existe, por favor elija otro.
                 </div>
                 ';
             exit();

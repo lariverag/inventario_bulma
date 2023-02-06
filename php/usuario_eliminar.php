@@ -14,6 +14,7 @@
 
         if ($check_producto->rowCount()<=0) {
             
+            //Verificar Usuario
             $eliminar_usuario=conexion();
             $eliminar_usuario=$eliminar_usuario->prepare("DELETE FROM usuario WHERE usuario_id = :id");
 
