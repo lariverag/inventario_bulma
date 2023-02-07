@@ -1,5 +1,5 @@
 <div class="container is-fluid mb-6">
-    <h1 class="title">Usuarios</h1>
+    <h1 class="title">Categorias</h1>
     <h2 class="subtitle">Buscar Categorias</h2>
 </div>
 <div class="container pb-6 pt-6">

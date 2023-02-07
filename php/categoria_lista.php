@@ -73,7 +73,7 @@
             $tabla.='
                 <tr class="has-text-centered">
                     <td colspan="5">
-                        <a href="'.$url.'1" class="button is-link is_rounded is-small mt-4 mb-4">
+                        <a href="'.$url.'1" class="button is-link is-rounded is-small mt-4 mb-4">
                             Haga clic acá para recargar el listado
                         </a>
                     </td>

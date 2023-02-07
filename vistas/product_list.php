@@ -8,6 +8,13 @@
     <?php
             require_once "./php/main.php";
 
+            // Eliminar producto
+
+            if (isset($_GET['product_id_del'])) {
+            require_once "./php/producto_eliminar.php";
+            }
+
+
             if (!isset($_GET['page'])) {
                 $pagina=1;
             } else {

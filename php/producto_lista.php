@@ -98,7 +98,7 @@
 
                             <a href="index.php?vista=product_update&producto_id_up='.$rows['producto_id'].'" class="button is-success is-rounded is-small">Actualizar</a>
 
-                            <a href="'.$url.$pagina.'&producto_id_del='.$rows['producto_id'].'" class="button is-danger is-rounded is-small">Eliminar</a>
+                            <a href="'.$url.$pagina.'&product_id_del='.$rows['producto_id'].'" class="button is-danger is-rounded is-small">Eliminar</a>
                         </div>
                     </div>
                 </article>
@@ -116,7 +116,7 @@
         if ($total>=1) {
             $tabla.='
                 <p class="has-text-centered">
-                    <a href="'.$url.'1" class="button is-link is_rounded is-small mt-4 mb-4">
+                    <a href="'.$url.'1" class="button is-link is-rounded is-small mt-4 mb-4"">
                         Haga clic acá para recargar el listado
                     </a>
                 </p>
