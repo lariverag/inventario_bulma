@@ -51,6 +51,7 @@
                                     echo '<option value="'.$row['categoria_id'].'">'.$row['categoria_nombre'].'</option>';
                                 }
                             }
+                            $categorias=null;
                         ?>
 
                     </select>
