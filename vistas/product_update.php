@@ -11,7 +11,7 @@
         $id=(isset($_GET['product_id_up'])) ? $_GET['product_id_up'] : 0;
         $id=limpiar_cadena($id);
 
-        // Verificando usuario //
+        // Verificando producto //
         $check_producto=conexion();
         $check_producto=$check_producto->query("SELECT * FROM producto WHERE producto_id = '$id'");
 
@@ -26,7 +26,7 @@
 
     <form action="./php/producto_actualizar.php" method="POST" autocomplete="off" class="FormularioAjax" enctype="multipart/form-data">
         
-        <input type="hidden" name="product_id" required value="<?php echo $datos['producto_nombre']?>">
+        <input type="hidden" name="producto_id" required value="<?php echo $datos['producto_id']?>">
         
         <div class="columns">
             <div class="column">
@@ -81,11 +81,9 @@
         </div>
             
         <p class="has-text-centered">
-            <button type="submit" class="button is-info is-rounded">Actualizar</button>
+            <button type="submit" class="button is-success is-rounded">Actualizar</button>
         </p>
     </form>
-
-    <form action=""></form>
 
     <?php
         } else {
